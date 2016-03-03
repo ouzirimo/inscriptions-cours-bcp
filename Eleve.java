@@ -4,4 +4,9 @@ public class Eleve {
 	public Eleve (String nom) {
 		this.nom = nom; 
 	}
+
+	public void setNom (String nom) {
+		this.nom = nom;
+	}
+
 }
