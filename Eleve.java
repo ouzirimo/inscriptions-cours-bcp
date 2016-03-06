@@ -11,4 +11,7 @@ public class Eleve {
 	public String getNom () {
 		return this.nom;
 	}
+	public String getHtml () {
+		return "<html>"+this.nom+"</html>";
+	}
 }
